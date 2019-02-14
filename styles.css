@@ -1,0 +1,5 @@
+slides > slide:not(.nobackground):before {
+  width: 85px;
+  height: 75px;
+  background-size: 75px 85px;
+}

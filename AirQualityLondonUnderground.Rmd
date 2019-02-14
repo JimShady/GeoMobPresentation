@@ -1,0 +1,61 @@
+---
+title: "PM<sub>2.5</sub> on the London Underground"
+author: "James David Smith"
+date: "4 March 2019"
+output: 
+  ioslides_presentation:
+    logo: 'images/kcl_logo.png'
+    css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+- Environmental Research Group
+- My PhD
+- Context: The London Hybrid Exposure Model
+- A Game of Thrones
+
+<p align="center"> 
+<img src="images/white_walker.gif">
+</p>
+  
+## Background
+
+- Exposure to particles on subway systems > important
+
+- Seaton et al 2005, but ...
+    - Tox. mechanisms
+    - Susceptible populations
+    - Analytical techniques
+    
+<p align="center"> 
+<img src="images/seaton.png">
+</p> 
+
+## Aims & Objectives
+
+- Measure variations in PM2.5 between lines and stations
+- Characterise the chemical composition
+- Calculate calibration factors for optical instruments
+- Provide a spatially resolved dataset for future analysis
+
+## Slide with Plot
+```{r}
+knitr::include_graphics("https://github.com/JimShady/pm25_tube_paper/raw/master/outputs/map_animation.gif")
+```
+
+## The end
+
+_Public health risks from respirable particles on the 'London Underground' metro network_
+
+Smith, J.D., Green, D., Loxham, M. Priestman, M., Tremper, A., Mudway, I., Fuller, G., Nicolosi, E., Barratt, B.M.
+
+
+![](images/email_logo.jpg) james.d.smith@kcl.ac.uk
+
+![](images/twitter_logo.png) [TheRealJimShady](http://twitter.com/therealjimshady)
+
