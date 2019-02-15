@@ -43,6 +43,11 @@ knitr::opts_chunk$set(echo = FALSE)
 - Calculate calibration factors for optical instruments
 - Provide a spatially resolved dataset for future analysis
 
+<p align="center">
+<img src="images/calibration.png" height="300" width="400">
+</p>
+
+
 ## Campaign One
 
 - COPD Study 
@@ -50,7 +55,9 @@ knitr::opts_chunk$set(echo = FALSE)
 - TSI AM510 SidePak for PM2.5
 - Philips Aerasense for ultrafine particle number and mean particle diameter
 
-![](images/copd_hyde_park.png) ![](images/copd_oxford_street.jpg)
+<p align="center">
+<img src="images/copd_oxford_street.jpg" height="300" width="400">
+</p>
 
 ## Campaign Two
 
@@ -61,14 +68,59 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <br>
 <p align="center">
-<img src="images/london_underground.gif" height="200" width="300">
+<img src="images/london_underground.gif" height="300" width="400">
 </p>
 
-## Characterisation & calibration
+## Calibration
 
-- Hampstead
+- Hampstead Station platform v. overground
 - One month
 - Filters v. TSI AM510 SidePak
+
+<br>
+<br>
+<p align="center">
+<img src="images/hampstead_equipment.jpg" height="300" width="400">
+</p>
+
+## Characterisation
+
+- Something here from Dave.
+
+## Passenger-weighted stations
+
+- 2015 tap in/tap out, Underground performance report
+- Annual in/out for each station
+- Mean PM<sub>2.5</sub> measured at each station
+- Passenger rank * air quality rank = passenger-weighted ranking
+
+<p align="center">
+<img src="images/tap_in.jpg" height="300" width="450">
+</p>
+
+## Spatial representation of the tube
+
+<p align="center">
+<img src="images/tube_network.png" width="708" height="440">
+</p>
+
+## Results
+
+## The Victoria Line
+
+## Environment comparisons
+
+## Line averages
+
+## Station depth
+
+## Depth on the Central Line
+
+## Passenger-weighted stations
+
+## Conclusions
+
+## What next?
 
 ## The end
 
