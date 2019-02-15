@@ -12,18 +12,18 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Introduction
+## Why me?
 
 - Environmental Research Group
-- My PhD
-- Context: The London Hybrid Exposure Model
+- PhD
+- The London Hybrid Exposure Model
 - A Game of Thrones
 
 <p align="center"> 
 <img src="images/white_walker.gif">
 </p>
   
-## Background
+## Why, and why now?
 
 - Exposure to particles on subway systems > important
 
@@ -36,17 +36,39 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/seaton.png">
 </p> 
 
-## Aims & Objectives
+## What we tried to do?
 
-- Measure variations in PM2.5 between lines and stations
+- Measure variations in PM<sub>2.5</sub> between lines and stations
 - Characterise the chemical composition
 - Calculate calibration factors for optical instruments
 - Provide a spatially resolved dataset for future analysis
 
-## Slide with Plot
-```{r}
-knitr::include_graphics("https://github.com/JimShady/pm25_tube_paper/raw/master/outputs/map_animation.gif")
-```
+## Campaign One
+
+- COPD Study 
+- 22 journeys alternating between Oxford Street / Hyde Park
+- TSI AM510 SidePak for PM2.5
+- Philips Aerasense for ultrafine particle number and mean particle diameter
+
+![](images/copd_hyde_park.png) ![](images/copd_oxford_street.jpg)
+
+## Campaign Two
+
+- Same equipment
+- 31 hours
+- All lines
+- 89% of stations (NE Central, SW Piccadilly)
+
+<br>
+<p align="center">
+<img src="images/london_underground.gif" height="200" width="300">
+</p>
+
+## Characterisation & calibration
+
+- Hampstead
+- One month
+- Filters v. TSI AM510 SidePak
 
 ## The end
 
@@ -54,6 +76,8 @@ _Public health risks from respirable particles on the 'London Underground' metro
 
 Smith, J.D., Green, D., Loxham, M. Priestman, M., Tremper, A., Mudway, I., Fuller, G., Nicolosi, E., Barratt, B.M.
 
+<br>
+<br>
 
 ![](images/email_logo.jpg) james.d.smith@kcl.ac.uk
 
