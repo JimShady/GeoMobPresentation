@@ -106,6 +106,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Results
 
+## Calibration factors
+
+<p align="center">
+<img src="images/tube_correction_example.png" width=450 height=450>
+</p>
+
 ## The Victoria Line  {.columns-2}
 
 <p align="center">
@@ -154,10 +160,17 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/tube_pm_passenger_weighting.png" width=732, height=496>
 </p>
 
+## Characterisation
+
+
 
 ## Conclusions
 
+
+
 ## What next?
+
+
 
 ## The end
 
