@@ -12,7 +12,9 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Why me?
+# Introduction
+
+## Why me
 
 - Environmental Research Group
 - PhD
@@ -23,7 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/white_walker.gif">
 </p>
   
-## Why, and why now?
+## Why now
 
 - Exposure to particles on subway systems > important
 
@@ -36,7 +38,9 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/seaton.png">
 </p> 
 
-## What we tried to do?
+# Aims
+
+## What we tried to do
 
 - Measure variations in PM<sub>2.5</sub> between lines and stations
 - Characterise the chemical composition
@@ -47,6 +51,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/calibration.png" height="300" width="400">
 </p>
 
+# Method
 
 ## Campaign One
 
@@ -104,7 +109,7 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/tube_network.png" width="708" height="440">
 </p>
 
-## Results
+# Results
 
 ## Calibration factors
 
@@ -162,17 +167,35 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Characterisation
 
+<p align="center">
+<img src="images/composition.jpg"" width=675, height=450>
+</p>
 
+# Conclusions
 
 ## Conclusions
 
+* Particles larger in diameter than those at background or roadside environments, but more numerous
+* Total PM<sub>2.5</sub> mass varied between lines & locations
+    * lowest Hammersmith & City (Mean 25 µg/m3), similar to roadside
+    * highest Victoria (381 µg/m3), 15 x higher than roadside
+* General relationship between depth and air quality.
+* Exposure - prioritise Oxford Circus, Waterloo, London Bridge, Victoria and Vauxhall
+* 79% of PM<sub>2.5</sub> characterised
+    * 47% iron oxide, 7% elemental carbon, 11% organic carbon, 14% metallic and mineral oxides
+* Previous studies using light-scattering may under-report PM
 
+# What next
 
-## What next?
+## What next
 
+* Characterise the remaining 11%
+* More measurements accross the network to improve understanding
+    * train frequency / passenger numbers / time of year
 
+# The end
 
-## The end
+## Publication & Contact details
 
 _Public health risks from respirable particles on the 'London Underground' metro network_
 
