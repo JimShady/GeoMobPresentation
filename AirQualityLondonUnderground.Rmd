@@ -106,17 +106,54 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Results
 
-## The Victoria Line
+## The Victoria Line  {.columns-2}
+
+<p align="center">
+<img src="https://github.com/JimShady/pm25_tube_paper/raw/master/outputs/graph_animation.gif"  width="370" height="462">
+</p>
+
+<p align="center">
+<img src="https://github.com/JimShady/pm25_tube_paper/raw/master/outputs/map_animation.gif"  width="204" height="459">
+</p>
 
 ## Environment comparisons
 
+<p align="center">
+<img src="images/environment_comparisons.png" width=768, height=384>
+</p>
+
 ## Line averages
 
-## Station depth
+<p align="center">
+<img src="images/pm25_on_underground.png" width=640, height=512>
+</p>
+
+## Station depth 1
+
+<p align="center">
+<img src="images/depth_per_station_per_line.png" width=736, height=520>
+</p>
+
+## Station depth 2
+
+<p align="center">
+<img src="images/depth_per_line.png" width=670, height=473>
+</p>
 
 ## Depth on the Central Line
 
+<br>
+<br>
+<p align="center">
+<img src="images/central_line.png" width=715, height=304>
+</p>
+
 ## Passenger-weighted stations
+
+<p align="center">
+<img src="images/tube_pm_passenger_weighting.png" width=732, height=496>
+</p>
+
 
 ## Conclusions
 
