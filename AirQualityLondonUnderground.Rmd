@@ -165,10 +165,16 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/tube_pm_passenger_weighting.png" width=732, height=496>
 </p>
 
+## Origin-Destination matrix
+
+<p align="center">
+<img src="images/od_pm25_cumulative_northern_line_v2.png" width=665, height=532>
+</p>
+
 ## Characterisation
 
 <p align="center">
-<img src="images/composition.jpg"" width=675, height=450>
+<img src="images/composition.jpg" width=675, height=450>
 </p>
 
 # Conclusions
