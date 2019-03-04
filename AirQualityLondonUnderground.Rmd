@@ -160,10 +160,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Depth on the Central Line
 
-<br>
-<br>
 <p align="center">
 <img src="images/central_line.png" width=715, height=304>
+</p>
+
+## PM<sub>2.5</sub> Map
+
+<p align="center">
+<img src="images/pm25_tube_map.png" width=733, height=508>
 </p>
 
 ## Passenger-weighted stations
@@ -188,23 +192,35 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Conclusions
 
-* Particles larger in diameter than those at background or roadside environments, but more numerous
-* Total PM<sub>2.5</sub> mass varied between lines & locations
-    * lowest Hammersmith & City (Mean 25 µg/m3), similar to roadside
-    * highest Victoria (381 µg/m3), 15 x higher than roadside
-* General relationship between depth and air quality.
-* Exposure - prioritise Oxford Circus, Waterloo, London Bridge, Victoria and Vauxhall
-* 79% of PM<sub>2.5</sub> characterised
-    * 47% iron oxide, 7% elemental carbon, 11% organic carbon, 14% metallic and mineral oxides
-* Previous studies using light-scattering may under-report PM
+- Particles tend to be larger in diameter than those at background or roadside environments
+- More particles
+- PM<sub>2.5</sub> varied between lines & locations
+    - lowest Hammersmith & City (Mean 25 µg/m3), similar to roadside
+    - highest Victoria (381 µg/m3), 15 x higher than roadside
+
+## Conclusions 2
+
+- General relationship between 'depth' and air quality
+- Oxford Circus, Waterloo, London Bridge, Victoria and Vauxhall at top of passenger-exposure ranking
+- 79% of PM<sub>2.5</sub> characterised
+    - 47% iron oxide, 7% elemental carbon, 11% organic carbon, 14% metallic and mineral oxides
+- Previous studies using light-scattering may under-report PM
+
+<p align="center">
+<img src="images/method_papers.png" width=671, height=212>
+</p>
 
 # What next
 
 ## What next
 
-* Characterise the remaining 11%
-* More measurements accross the network to improve understanding
-    * train frequency / passenger numbers / time of year
+- Characterise the remaining 11%
+- More measurements accross the network to improve understanding
+    - train frequency
+    - passenger numbers
+    - time of year
+- Interventions?
+- Develop inclusion in exposure modelling
 
 # The end
 
