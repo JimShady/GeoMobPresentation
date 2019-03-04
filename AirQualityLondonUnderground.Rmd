@@ -76,21 +76,28 @@ knitr::opts_chunk$set(echo = FALSE)
 <img src="images/london_underground.gif" height="300" width="400">
 </p>
 
-## Calibration
+## Characterisation & Calibration
 
-- Hampstead Station platform v. overground
-- One month
-- Filters v. TSI AM510 SidePak
+- PM<sub>2.5</sub> and total suspended particles collected on filters
+- Filters, 4 hour intervals over 5 days, measuring:
+    - PM Mass, Elemental and Organic Carbon
+    - Elemental Analysis by ICP-MS ( ~ 32 elements characterised )
 
-<br>
-<br>
+<p align="center">
+<img src="images/max_characterisation.jpg" height="298" width="320">
+</p>
+
+## Characterisation & Calibration 2
+
+- High time resolution
+    - Aethalometer
+    - TSI Dustrak
+    - 2 TSI Sidepaks
+    - Micro-aethalometer
+    
 <p align="center">
 <img src="images/hampstead_equipment.jpg" height="300" width="400">
 </p>
-
-## Characterisation
-
-- Something here from Dave.
 
 ## Passenger-weighted stations
 
