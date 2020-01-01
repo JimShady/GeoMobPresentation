@@ -1,7 +1,7 @@
 ---
 title: "PM<sub>2.5</sub> on the London Underground"
-author: "James David Smith"
-date: "4 March 2019"
+author: "Dr James David Smith"
+date: "8 January 2020"
 output: 
   ioslides_presentation:
     logo: 'images/kcl_logo.png'
@@ -14,18 +14,16 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Introduction
 
-## Why me
+## About me
+- MSc in GIS at UCL
+- PhD / Researcher at King's College London
+- The London Hybrid Exposure Model / Air quality GIS 'stuff'
 
-- Environmental Research Group
-- PhD
-- The London Hybrid Exposure Model
-- A Game of Thrones
+![](images/no2_2020_raster.png) ![](images/cmaq_uk_v2.png)  ![](images/theoretical_lhem_pm25.png)
 
-<p align="center"> 
-<img src="images/white_walker.gif">
-</p>
+- Now at Guy Carpenter (Model development, Re-insurance)
   
-## Why now
+## Why measure air on the tube
 
 - Exposure to particles on subway systems > important
 
@@ -33,10 +31,6 @@ knitr::opts_chunk$set(echo = FALSE)
     - Tox. mechanisms
     - Susceptible populations
     - Analytical techniques
-    
-<p align="center"> 
-<img src="images/seaton.png">
-</p> 
 
 # Aims
 
@@ -53,51 +47,34 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Method
 
-## Campaign One
+## Mobile Measurement campaign
 
-- COPD Study 
-- 22 journeys alternating between Oxford Street / Hyde Park
-- TSI AM510 SidePak for PM2.5
-- Philips Aerasense for ultrafine particle number and mean particle diameter
-
-<p align="center">
-<img src="images/copd_oxford_street.jpg" height="300" width="400">
-</p>
-
-## Campaign Two
-
-- Same equipment
+- TSI AM510 SidePak (PM2.5)
+- Philips Aerasense (numbers and size of particles)
 - 31 hours
 - All lines
 - 89% of stations (NE Central, SW Piccadilly)
-
-<br>
 <p align="center">
 <img src="images/london_underground.gif" height="300" width="400">
 </p>
 
+## Geo-tagging data
+
+- Need to link air quality measurements to locations
+- No GPS signal on large sections of the network
+- Considered using timetables / interpolating between known locations
+- Ended up using a notepad
+
+![](images/metropolitan_line_1.jpg) ![](images/northern_line_2.jpg) ![](images/Piccadilly_Line_1.jpg)
+
 ## Characterisation & Calibration
 
-- PM<sub>2.5</sub> and total suspended particles collected on filters
-- Filters, 4 hour intervals over 5 days, measuring:
-    - PM Mass, Elemental and Organic Carbon
-    - Elemental Analysis by ICP-MS ( ~ 32 elements characterised )
+- Tricky installation at Hampstead
+- Particles collected on filters over 5 days measuring composition & amount
+- High time resolution equipment installed
+    - Aethalometer / TSI Dustrak / 2 TSI Sidepaks / Micro-aethalometer
 
-<p align="center">
-<img src="images/max_characterisation.jpg" height="298" width="320">
-</p>
-
-## Characterisation & Calibration 2
-
-- High time resolution
-    - Aethalometer
-    - TSI Dustrak
-    - 2 TSI Sidepaks
-    - Micro-aethalometer
-    
-<p align="center">
-<img src="images/hampstead_equipment.jpg" height="300" width="400">
-</p>
+![](images/hampstead_equipment.jpg) ![](images/max_characterisation.jpg)
 
 ## Passenger-weighted stations
 
@@ -120,6 +97,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Calibration factors
 
+- Linear model to calculate correction factors for mobile monitoring equipment
+- Mobile monitoring equipment co-located in tube station v. outdoor
+
 <p align="center">
 <img src="images/tube_correction_example.png" width=450 height=450>
 </p>
@@ -132,12 +112,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <p align="center">
 <img src="https://github.com/JimShady/pm25_tube_paper/raw/master/outputs/map_animation.gif"  width="204" height="459">
-</p>
-
-## Environment comparisons
-
-<p align="center">
-<img src="images/environment_comparisons.png" width=768, height=384>
 </p>
 
 ## Line averages
@@ -168,6 +142,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <p align="center">
 <img src="images/pm25_tube_map.png" width=733, height=508>
+</p>
+
+## PM<sub>2.5</sub> online map
+
+[Online](http://www.erg.kcl.ac.uk/research/home/projects/TubeMapPM25.html)
+<p align="center">
+<img src="images/online_pm25_map.png" width=660, height=457>
 </p>
 
 ## Passenger-weighted stations
@@ -212,28 +193,30 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # What next
 
-## What next
+## What was planned
 
-- Characterise the remaining 11%
-- More measurements accross the network to improve understanding
-    - train frequency
-    - passenger numbers
-    - time of year
-- Interventions?
-- Develop inclusion in exposure modelling
+- ~~Characterise the remaining 11%~~
+- ~~More measurements accross the network to improve understanding~~
+    - ~~train frequency~~
+    - ~~passenger numbers~~
+    - ~~time of year~~
+- ~~Interventions?~~
+- ~~Develop inclusion in exposure modelling~~
+
+## What happened
+
+![](images/lola_swing.gif){width=30%} ![](images/lola_swing.gif){width=30%}
 
 # The end
 
-## Publication & Contact details
+## Publication, Contact & Data
 
-_Public health risks from respirable particles on the 'London Underground' metro network_
-
-Smith, J.D., Green, D., Loxham, M. Priestman, M., Tremper, A., Mudway, I., Fuller, G., Nicolosi, E., Barratt, B.M.
-
-<br>
+![](images/tube_paper.png)
+CSV of data available at: [https://data.mendeley.com/datasets/tv56txbpcw/1](https://data.mendeley.com/datasets/tv56txbpcw/1)
 <br>
 
-![](images/email_logo.jpg) james.d.smith@kcl.ac.uk
+![](images/email_logo.jpg) james.d.smith@gmail.com
+![](images/email_logo.jpg) james.d.smith@guycarp.com
 
 ![](images/twitter_logo.png) [TheRealJimShady](http://twitter.com/therealjimshady)
 
