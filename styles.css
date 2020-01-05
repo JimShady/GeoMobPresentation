@@ -3,3 +3,9 @@ slides > slide:not(.nobackground):before {
   height: 75px;
   background-size: 75px 85px;
 }
+
+slides > slide hgroup h2 {  
+  color: red;
+  font-size: 40px;
+  letter-spacing: 10;
+}
