@@ -1,0 +1,211 @@
+---
+title: "PM<sub>2.5</sub> on the London Underground"
+author: "Dr James David Smith"
+date: "8 January 2020"
+output: 
+  ioslides_presentation:
+    logo: 'images/kcl_logo.png'
+    css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+## About me
+- MSc in GIS at UCL
+- PhD / Researcher at King's College London
+- The London Hybrid Exposure Model / Air quality GIS 'stuff'
+
+![](images/no2_2020_raster.png) ![](images/cmaq_uk_v2.png)  ![](images/theoretical_lhem_pm25.png) ![](images/flood.png)
+
+- Now at Guy Carpenter (Model development, Re-insurance)
+  
+## Why measure air on the tube
+
+- Exposure to particles on subway systems > important
+
+- Seaton et al 2005, but ...
+    - Tox. mechanisms
+    - Susceptible populations
+    - Analytical techniques
+
+# Aims
+
+## What we tried to do
+
+- Measure variations in PM<sub>2.5</sub> between lines and stations
+- Characterise the chemical composition
+- Calculate calibration factors for optical instruments
+- Provide a spatially resolved dataset for future analysis
+
+<p align="center">
+<img src="images/calibration.png" height="300" width="400">
+</p>
+
+# Method
+
+## Mobile Measurement campaign
+
+- TSI AM510 SidePak (PM2.5)
+- Philips Aerasense (numbers and size of particles)
+- 31 hours
+- All lines
+- 89% of stations (NE Central, SW Piccadilly)
+<p align="center">
+<img src="images/london_underground.gif" height="300" width="400">
+</p>
+
+## Geo-tagging data
+
+- Need to link air quality measurements to locations
+- No GPS signal on large sections of the network
+- Considered using timetables / interpolating between known locations
+- Ended up using a notepad
+
+![](images/metropolitan_line_1.jpg) ![](images/northern_line_2.jpg) ![](images/Piccadilly_Line_1.jpg)
+
+## Characterisation & Calibration
+
+- Tricky installation at Hampstead
+- Particles collected on filters over 5 days measuring composition & amount
+- High time resolution equipment installed
+    - Aethalometer / TSI Dustrak / 2 TSI Sidepaks / Micro-aethalometer
+
+![](images/hampstead_equipment.jpg){width=40%, style="display: inline; margin: 0 auto"} ![](images/max_characterisation.jpg){width=40%, style="display: inline; margin: 0 auto"}
+
+## Passenger-weighted stations
+
+- 2015 tap in/tap out, Underground performance report
+- Annual in/out for each station
+- Mean PM<sub>2.5</sub> measured at each station
+- Passenger rank * air quality rank = passenger-weighted ranking
+
+![](images/tap_in.jpg){width=400, height=250, style="display: block; margin: 0 auto"}
+
+## Spatial representation of the tube
+
+<p align="center">
+<img src="images/tube_network.png" width="708" height="440">
+</p>
+
+# Results
+
+## Calibration factors
+
+- Linear model to calculate correction factors for mobile monitoring equipment
+- Mobile monitoring equipment co-located in tube station v. outdoor
+
+![](images/tube_correction_example.png){width=300, height=300, style="display: block; margin: 0 auto"}
+
+## The Victoria Line  {.columns-2}
+
+<p align="center">
+<img src="https://github.com/JimShady/pm25_tube_paper/raw/master/outputs/graph_animation.gif"  width="370" height="462">
+</p>
+
+<p align="center">
+<img src="https://github.com/JimShady/pm25_tube_paper/raw/master/outputs/map_animation.gif"  width="204" height="459">
+</p>
+
+## Line averages
+
+![](images/pm25_on_underground.png){width=640, height=512, style="display: block; margin: 0 auto"}
+
+## Station depth 1
+
+![](images/depth_per_station_per_line.png){width=736, height=520, style="display: block; margin: 0 auto"}
+
+## Station depth 2
+
+![](images/depth_per_line.png){width=670, height=473, style="display: block; margin: 0 auto"}
+
+## Depth on the Central Line
+
+<p align="center">
+<img src="images/central_line.png" width=715, height=304>
+</p>
+
+## PM<sub>2.5</sub> Map
+
+<p align="center">
+<img src="images/pm25_tube_map.png" width=733, height=508>
+</p>
+
+## PM<sub>2.5</sub> online map
+
+[Online](http://www.erg.kcl.ac.uk/research/home/projects/TubeMapPM25.html)
+<p align="center">
+<img src="images/online_pm25_map.png" width=660, height=457>
+</p>
+
+## Passenger-weighted stations
+
+<p align="center">
+<img src="images/tube_pm_passenger_weighting.png" width=732, height=496>
+</p>
+
+## Origin-Destination matrix
+
+<p align="center">
+<img src="images/od_pm25_cumulative_northern_line_v2.png" width=665, height=532>
+</p>
+
+## Characterisation
+
+<p align="center">
+<img src="images/composition.jpg" width=675, height=450>
+</p>
+
+# Conclusions
+
+## Conclusions
+
+- Particles tend to be larger in diameter than those at background or roadside environments
+- More particles
+- PM<sub>2.5</sub> varied between lines & locations
+    - lowest Hammersmith & City (Mean 25 µg/m3), similar to roadside
+    - highest Victoria (381 µg/m3), 15 x higher than roadside
+
+## Conclusions 2
+
+- General relationship between 'depth' and air quality
+- Oxford Circus, Waterloo, London Bridge, Victoria and Vauxhall at top of passenger-exposure ranking
+- 79% of PM<sub>2.5</sub> characterised
+    - 47% iron oxide, 7% elemental carbon, 11% organic carbon, 14% metallic and mineral oxides
+- Previous studies using light-scattering may under-report PM
+
+<p align="center">
+<img src="images/method_papers.png" width=671, height=212>
+</p>
+
+# What next
+
+## What was planned
+
+- ~~Characterise the remaining 11%~~
+- ~~More measurements accross the network to improve understanding~~
+    - ~~train frequency~~
+    - ~~passenger numbers~~
+    - ~~time of year~~
+- ~~Interventions?~~
+- ~~Develop inclusion in exposure modelling~~
+
+## What happened
+
+![](images/lola_swing.gif){width=40%, style="display: block; margin: 0 auto"} <!--![](images/lola_swing.gif){width=30%}-->
+
+# The end
+
+## Publication, Contact & Data
+
+![](images/tube_paper.png){style="display: block; margin: 0 auto"}
+[https://data.mendeley.com/datasets/tv56txbpcw/1](https://data.mendeley.com/datasets/tv56txbpcw/1)
+<br>
+
+![](images/email_logo.jpg) james.david.smith@gmail.com
+
+![](images/twitter_logo.png) [TheRealJimShady](http://twitter.com/therealjimshady)
+
