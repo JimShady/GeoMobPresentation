@@ -49,11 +49,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Mobile Measurement campaign
 
-- TSI AM510 SidePak (PM2.5)
-- Philips Aerasense (numbers and size of particles)
-- 31 hours
-- All lines
-- 89% of stations (NE Central, SW Piccadilly)
+- ~~TSI AM510 SidePak (PM2.5) + Philips Aerasense (numbers and size of particles)~~
+- ~~31 hours, all lines~~
+- ~~89% of stations (NE Central, SW Piccadilly)~~
+
+- A long time down there with some fancy science equipment
 <p align="center">
 <img src="images/london_underground.gif" height="300" width="400">
 </p>
@@ -69,10 +69,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Characterisation & Calibration
 
-- Tricky installation at Hampstead
-- Particles collected on filters over 5 days measuring composition & amount
-- High time resolution equipment installed
-    - Aethalometer / TSI Dustrak / 2 TSI Sidepaks / Micro-aethalometer
+- ~~Particles collected on filters over 5 days measuring composition & amount~~
+- ~~High time resolution equipment installed~~
+    - ~~Aethalometer / TSI Dustrak / 2 TSI Sidepaks / Micro-aethalometer~~
+    
+- Some *really* fancy equipment on the platform at Hampstead
 
 ![](images/hampstead_equipment.jpg){width=40%, style="display: inline; margin: 0 auto"} ![](images/max_characterisation.jpg){width=40%, style="display: inline; margin: 0 auto"}
 
@@ -163,23 +164,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Conclusions
 
-- Particles tend to be larger in diameter than those at background or roadside environments
-- More particles
-- PM<sub>2.5</sub> varied between lines & locations
-    - lowest Hammersmith & City (Mean 25 µg/m3), similar to roadside
-    - highest Victoria (381 µg/m3), 15 x higher than roadside
+- ~~Particles tend to be larger in diameter than those at background or roadside environments~~
+- ~~More particles~~
+- ~~PM<sub>2.5</sub> varied between lines & locations~~
+    - ~~lowest Hammersmith & City (Mean 25 µg/m3), similar to roadside~~
+    - ~~highest Victoria (381 µg/m3), 15 x higher than roadside~~
+- There's lots, they're bigger than exhaust, and it really varies
 
 ## Conclusions 2
 
-- General relationship between 'depth' and air quality
-- Oxford Circus, Waterloo, London Bridge, Victoria and Vauxhall at top of passenger-exposure ranking
-- 79% of PM<sub>2.5</sub> characterised
-    - 47% iron oxide, 7% elemental carbon, 11% organic carbon, 14% metallic and mineral oxides
-- Previous studies using light-scattering may under-report PM
-
-<p align="center">
-<img src="images/method_papers.png" width=671, height=212>
-</p>
+- Relationship between 'depth' and air quality
+- Oxford Circus, Waterloo, London Bridge, Victoria and Vauxhall = bleurgh
+- We now know what most of it is
+- Other studies need to re-evaluate
 
 # What next
 
